@@ -53,6 +53,6 @@ for token in main_tokes:
     token = normalizer.Normalize(token)
     S = stemmer_fa.stem(token)
     l = lemmatizer_fa.lemmatize(token)
-
+    print( token +": " +l +" ,"+s)
 
 
