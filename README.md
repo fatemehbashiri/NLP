@@ -8,6 +8,7 @@ Base knowledge for NLP
 4. [TF-IDF (Term Frequency-Inverse Document Frequency)](#tf-idf)
 5. [Tokenization](#tokenization)
 6. [Bag of Words](#bag-of-words)
+7. [Word2Vec](#word2vec)
 
 ## Vectorization
 Vectorization is the process of converting text data into numerical vectors that can be used in machine learning algorithms. In NLP, this often involves techniques like one-hot encoding or word embeddings to represent words or phrases as numerical values.
@@ -35,3 +36,6 @@ Tokenization is the process of breaking text into individual words or tokens. It
 
 ## Bag of Words
 The Bag of Words (BoW) model is a simple representation of text data that counts the frequency of words in a document without considering their order. It's a basic and effective method for text classification and sentiment analysis.
+
+## Word2Vec
+Word2Vec is a popular word embedding technique that represents words as vectors in a continuous space. It uses neural networks to learn the semantic relationships between words based on their context in large text corpora. Word2Vec embeddings are widely used in NLP tasks for capturing word similarities and context.
